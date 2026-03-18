@@ -1,0 +1,15 @@
+Dataset: RAVDESS Speech Emotion Dataset
+Total samples: 1440
+
+Feature Extraction:
+13 MFCC + 13 Delta + 13 Delta2 = 39 features
+
+Clustering Algorithms:
+Gaussian Mixture Model (8 clusters)
+DBSCAN
+
+Evaluation:
+GMM Silhouette Score: 0.0248
+
+Observations:
+Clusters show overlapping acoustic characteristics typical in emotional speech.
